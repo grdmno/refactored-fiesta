@@ -4,12 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "refine dev",
+    "build": "refine build",
+    "serve": "refine serve",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@refinedev/cli": "^2.16.31",
+    "@refinedev/core": "^4.49.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
